@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.dotarakotara.awkwardfunnyworld.AwkwardFunnyWorldMod"
+			"net.dotarakotara.awkwardfunnyworldmod.AwkwardFunnyWorldMod"
 		],
 		"client": [
-			"net.dotarakotara.awkwardfunnyworld.AwkwardFunnyWorldModClient"
+			"net.dotarakotara.awkwardfunnyworldmod.AwkwardFunnyWorldModClient"
 		],
 		"fabric-datagen": [
-			"net.dotarakotara.awkwardfunnyworld.AwkwardFunnyWorldModDataGenerator"
+			"net.dotarakotara.awkwardfunnyworldmod.AwkwardFunnyWorldModDataGenerator"
 		]
 	},
 	"mixins": [
