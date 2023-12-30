@@ -1,5 +1,6 @@
 package net.dotarakotara.awkwardfunnyworldmod;
 
+import net.dotarakotara.awkwardfunnyworldmod.block.ModBlocks;
 import net.dotarakotara.awkwardfunnyworldmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,5 +17,6 @@ public class AwkwardFunnyWorldMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

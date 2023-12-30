@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item CALZONE_INGOT = registerItem("calzone_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_CALZONE = registerItem("raw_calzone", new Item(new FabricItemSettings()));
+    public static final Item CALZONE = registerItem("calzone", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(AwkwardFunnyWorldMod.MOD_ID, name), item);
@@ -21,6 +22,7 @@ public class ModItems {
     private static void addItemsToFoodItemGroup(FabricItemGroupEntries entries) {
         entries.add(CALZONE_INGOT);
         entries.add(RAW_CALZONE);
+        entries.add(CALZONE);
     }
 
     public static void registerModItems() {
